@@ -1,12 +1,15 @@
+// src/App.jsx
+import './App.css';
 
+import Bookshelf from './component/Bookshelf';
 
-import './App.css'
+const App = () => {
+  return (
+    <>
+      <h1>My Bookshelf</h1>
+      <Bookshelf />
+    </>
+  );
+};
 
-
-function App() {
-  
-
-  return <h1>Hello World!</h1>
-}
-
-export default App
+export default App;
